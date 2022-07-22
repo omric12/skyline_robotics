@@ -7,13 +7,6 @@ var port = 3000;
 
 //Define request response in root URL (/)
 app.post('/', function (req, res) {
-  const data = req.body;
-  console.log('POST: ', data);
-  if (!data?.timestamp) {
-    res.send('No timestamp was provided!');
-    return;
-  }
-
   res.send('Hello World!');
 });
 
