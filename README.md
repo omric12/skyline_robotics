@@ -20,3 +20,5 @@ URL: [localhost:3000/](localhost:3000/)
 Using GET request to get analytics:
 
 URL: [localhost:3000/statistics](localhost:3000/statistics)
+
+In order to engage those API endpoint you will need an API platform such as Postman
